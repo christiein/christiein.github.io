@@ -1,23 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-
-title: 一对快乐的兔子
-email: sumadd@vip.qq.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sumadd.github.io" # the base hostname & protocol for your site
-twitter_username: sumadd
-github_username:  sumadd
-
-# Build settings
 markdown: kramdown
-gems: [jekyll-paginate]
+highlighter: rouge
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
+
+gauges_id: 503c5af6613f5d0f19000027
+google_analytics_id: UA-50755011-1
+google_site_verification: onQcXpAvtHBrUI5LlroHNE_FP0b2qvFyPq7VZw36iEY
+
+repository: https://github.com/jekyll/jekyll
+help_url: https://github.com/jekyll/jekyll-help
+
+timezone: Asia/Beijing
+
+collections:
+  docs:
+    output: true
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+name: Jekyll • Simple, blog-aware, static sites
+description: Transform your plain text into static websites and blogs
+url: https://jekyllcn.com
+
+twitter:
+  username: jekyllrb
+
+logo: img/logo-2x.png
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
