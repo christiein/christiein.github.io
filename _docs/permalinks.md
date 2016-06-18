@@ -291,9 +291,13 @@ handle extensionless URLs by setting the [multiviews][] option in your
 
 ### Nginx
 
-{% highlight %}
-OOOOO
-{% endgighlight %}
+aa
+
+{% highlight nginx %}
+try_files $uri $uri.html $uri/ =404;
+{% endhighlight %}
+
+jjj
 
 The [try_files][] directive allows you to specify a list of files to search for
 to process a request. The following configuration will instruct nginx to search
