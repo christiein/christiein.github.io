@@ -16,6 +16,8 @@ handle extensionless URLs by setting the [multiviews][] option in your
 Options +MultiViews;
 {% endhighlight %}
 
+a
+
 ### Nginx
 
 The [try_files][] directive allows you to specify a list of files to search for
