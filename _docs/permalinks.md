@@ -284,12 +284,12 @@ handle these requests properly without any additional work.
 ### Apache
 
 The Apache web server has very extensive support for content negotiation and can
-handle extensionless URLs by setting the [multiviews][https://httpd.apache.org/docs/current/content-negotiation.html#multiviews] option in your
+handle extensionless URLs by setting the [multiviews][] option in your
 `httpd.conf` or `.htaccess` file:
 
-{% highlight apache %}
+[multiviews]: https://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+
 Options +MultiViews
-{% endhighlight %}
 
 ### Nginx
 
