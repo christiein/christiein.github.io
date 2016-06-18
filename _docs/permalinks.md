@@ -281,7 +281,13 @@ must be able to map requests without file extensions to these files.
 Both [GitHub Pages](../github-pages/) and the Jekyll's built-in WEBrick server
 handle these requests properly without any additional work.
 
+### Apache
 
+
+
+{% highlight apache %}
+Options +MultiViews
+{% endhighlight %}
 
 ### Nginx
 
