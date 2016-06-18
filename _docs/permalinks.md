@@ -212,4 +212,73 @@ overridden in the [YAML Front Matter](../frontmatter/) for the page or document.
 Additionally, permalinks for a given collection can be customized [in the
 collections configuration](../collections/).
 
+## Permalink style examples
+
+Given a post named: `/2009-04-29-slap-chop.md`
+
+<div class="mobile-side-scroller">
+<table>
+  <thead>
+    <tr>
+      <th>URL Template</th>
+      <th>Resulting Permalink URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p>None specified, or <code>permalink: date</code></p>
+      </td>
+      <td>
+        <p><code>/2009/04/29/slap-chop.html</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>pretty</code></p>
+      </td>
+      <td>
+        <p><code>/2009/04/29/slap-chop/</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>/:month-:day-:year/:title.html</code></p>
+      </td>
+      <td>
+        <p><code>/04-29-2009/slap-chop.html</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>/blog/:year/:month/:day/:title/</code></p>
+      </td>
+      <td>
+        <p><code>/blog/2009/04/29/slap-chop/</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>/:year/:month/:title</code></p>
+        <p>See <a href="#extensionless-permalinks">extensionless permalinks</a> for details.</p>
+      </td>
+      <td>
+        <p><code>/2009/04/slap-chop</code></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+## Extensionless permalinks
+
+Jekyll supports permalinks that contain neither a trailing slash nor a file
+extension, but this requires additional support from the web server to properly
+serve. When using extensionless permalinks, output files written to disk will
+still have the proper file extension (typically `.html`), so the web server
+must be able to map requests without file extensions to these files.
+
+Both [GitHub Pages](../github-pages/) and the Jekyll's built-in WEBrick server
+handle these requests properly without any additional work.
+
 
