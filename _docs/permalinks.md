@@ -292,7 +292,7 @@ handle extensionless URLs by setting the [multiviews][] option in your
 a
 
 {% highlight apache %}
-Options +MultiViews
+Options +MultiViews;
 {% endhighlight %}
 
 a
