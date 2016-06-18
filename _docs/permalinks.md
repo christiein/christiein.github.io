@@ -1,4 +1,4 @@
----
+﻿---
 layout: docs
 title: Permalinks
 permalink: /docs/permalinks/
@@ -289,15 +289,11 @@ handle extensionless URLs by setting the [multiviews][] option in your
 
 [multiviews]: https://httpd.apache.org/docs/current/content-negotiation.html#multiviews
 
-```apach
-Options MultiViews
-```
-
-{% highlight apache %}
-Options MultiViews
-{% endhighlight %}
-
 ### Nginx
+
+{% highlight %}
+OOOOO
+{% endgighlight %}
 
 The [try_files][] directive allows you to specify a list of files to search for
 to process a request. The following configuration will instruct nginx to search
