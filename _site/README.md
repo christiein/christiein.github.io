@@ -1,16 +1,15 @@
-# Jekyll docs site
+# christiein.github.io
+Personal Website
+https://github.com/IceHe/icehe.github.io/
+http://blog.devtang.com/about/#
 
-This directory contains the code for the Jekyll docs site, [jekyllrb.com](http://jekyllrb.com/).
+http://pizn.github.io/page2/
 
-## Contributing
+http://template.zhanxin.info/lovely/#
 
-For information about contributing, see the [Contributing page](http://jekyllrb.com/docs/contributing/).
 
-## Running locally
+git中文手册v1版（2009年） https://git-scm.com/book/zh/v1
+git中文手册v2版（2014年） https://git-scm.com/book/zh/v2
 
-You can preview your contributions before opening a pull request by running from within the directory:
+http://yanjunyi.com/works/
 
-1. `bundle install`
-2. `bundle exec rake site:preview`
-
-It's just a jekyll site, afterall! :wink:
