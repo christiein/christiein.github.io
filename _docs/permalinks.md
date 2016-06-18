@@ -289,9 +289,13 @@ handle extensionless URLs by setting the [multiviews][] option in your
 
 [multiviews]: https://httpd.apache.org/docs/current/content-negotiation.html#multiviews
 
-```apache
-Options +MultiViews
+```apach
+Options MultiViews
 ```
+
+{% highlight apache %}
+Options MultiViews
+{% endhighlight %}
 
 ### Nginx
 
