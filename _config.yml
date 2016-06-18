@@ -18,7 +18,7 @@ collections:
     permalink: /:collection/:path/:year/:month/:day/:title/
   blog:
     output: true
-    permalink: /:collection/:path/:year/:month/:day/:title/
+    permalink: /:collection/:year/:month/:day/:title/
 
 name: Jekyll • Simple, blog-aware, static sites
 description: Transform your plain text into static websites and blogs
