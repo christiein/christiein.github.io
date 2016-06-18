@@ -281,4 +281,15 @@ must be able to map requests without file extensions to these files.
 Both [GitHub Pages](../github-pages/) and the Jekyll's built-in WEBrick server
 handle these requests properly without any additional work.
 
+### Apache
+
+The Apache web server has very extensive support for content negotiation and can
+handle extensionless URLs by setting the [multiviews][] option in your
+`httpd.conf` or `.htaccess` file:
+
+[multiviews]: https://httpd.apache.org/docs/current/content-negotiation.html#multiviews
+
+{% highlight apache %}
+Options +MultiViews
+{% endhighlight %}
 
