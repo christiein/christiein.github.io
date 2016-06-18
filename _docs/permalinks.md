@@ -293,10 +293,7 @@ handle extensionless URLs by setting the [multiviews][] option in your
 Options +MultiViews
 {% endhighlight %}
 
-```apache
-Options +MultiViews
-```
-
+ 
 
 ### Nginx
 
