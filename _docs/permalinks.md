@@ -143,4 +143,73 @@ permalink is defined according to the format `/:categories/:year/:month/:day/:ti
 </table>
 </div>
 
+## Built-in permalink styles
+
+While you can specify a custom permalink style using [template variables](#template-variables),
+Jekyll also provides the following built-in styles for convenience.
+
+<div class="mobile-side-scroller">
+<table>
+  <thead>
+    <tr>
+      <th>Permalink Style</th>
+      <th>URL Template</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p><code>date</code></p>
+      </td>
+      <td>
+        <p><code>/:categories/:year/:month/:day/:title.html</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>pretty</code></p>
+      </td>
+      <td>
+        <p><code>/:categories/:year/:month/:day/:title/</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>ordinal</code></p>
+      </td>
+      <td>
+        <p><code>/:categories/:year/:y_day/:title.html</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>none</code></p>
+      </td>
+      <td>
+        <p><code>/:categories/:title.html</code></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+## Pages and collections
+
+The `permalink` configuration setting specifies the permalink style used for
+posts. Pages and collections each have their own default permalink style; the
+default style for pages is `/:path/:basename` and the default for collections is
+`/:collection/:path`.
+
+These styles are modified to match the suffix style specified in the post
+permalink setting. For example, a permalink style of `pretty`, which contains a
+trailing slash, will update page permalinks to also contain a trailing slash:
+`/:path/:basename/`. A permalink style of `date`, which contains a trailing
+file extension, will update page permalinks to also contain a file extension:
+`/:path/:basename:output_ext`. The same is true for any custom permalink style.
+
+The permalink for an individual page or collection document can always be
+overridden in the [YAML Front Matter](../frontmatter/) for the page or document.
+Additionally, permalinks for a given collection can be customized [in the
+collections configuration](../collections/).
+
 
