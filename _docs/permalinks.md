@@ -1,4 +1,4 @@
-﻿---
+---
 layout: docs
 title: Permalinks
 permalink: /docs/permalinks/
