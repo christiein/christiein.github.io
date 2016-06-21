@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Extras
-permalink: /docs/extras/
 ---
 
 There are a number of (optional) extra features that Jekyll supports that you

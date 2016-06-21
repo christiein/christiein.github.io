@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Variables
-permalink: /docs/variables/
 ---
 
 Jekyll traverses your site looking for files to process. Any files with [YAML

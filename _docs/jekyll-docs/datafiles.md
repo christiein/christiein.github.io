@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Data Files
-permalink: /docs/datafiles/
 ---
 
 In addition to the [built-in variables](../variables/) available from Jekyll,

@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Front Matter
-permalink: /docs/frontmatter/
 ---
 
 The front matter is where Jekyll starts to get really cool. Any file that

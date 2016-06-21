@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Blog migrations
-permalink: /docs/migrations/
 ---
 
 If you’re switching to Jekyll from another blogging system, Jekyll’s importers

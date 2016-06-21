@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Continuous Integration
-permalink: /docs/continuous-integration/
 ---
 
 You can easily test your website build against one or more versions of Ruby.

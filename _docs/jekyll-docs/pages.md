@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Creating pages
-permalink: /docs/pages/
 ---
 
 In addition to [writing posts](../posts/), another thing you may want to do

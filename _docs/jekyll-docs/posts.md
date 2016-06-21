@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Writing posts
-permalink: /docs/posts/
 ---
 
 One of Jekyll’s best aspects is that it is “blog aware”. What does this mean,

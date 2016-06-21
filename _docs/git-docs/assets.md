@@ -1,6 +1,5 @@
 ---
-layout: docs
-title: Assets
+title: 'Git Assets'
 ---
 
 Jekyll provides built-in support for Sass and can work with CoffeeScript via 
