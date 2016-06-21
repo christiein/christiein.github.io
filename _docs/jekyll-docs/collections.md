@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Collections
+permalink: /docs/collections/
 ---
 
 Not everything is a post or a page. Maybe you want to document the various

@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Jekyll on Windows
+permalink: /docs/windows/
 ---
 
 While Windows is not an officially-supported platform, it can be used to run

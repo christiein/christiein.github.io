@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Themes
+permalink: /docs/themes/
 ---
 
 <div class="note unreleased">

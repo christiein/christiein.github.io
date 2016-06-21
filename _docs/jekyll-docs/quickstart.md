@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Quick-start guide
+permalink: /docs/quickstart/
 ---
 
 For the impatient, here's how to get a boilerplate Jekyll site up and running.

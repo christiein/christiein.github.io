@@ -15,23 +15,10 @@ timezone: Asia/Beijing
 collections:
   docs:
     output: true
-    permalink: /:collection/:path/
-    layout: docs
+    permalink: /:collection/:path/:year/:month/:day/:title/
   blog:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
-
-defaults:
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: docs
-  - scope:
-      path: ""
-      type: blog
-    values:
-      layout: blog_item
 
 name: Jekyll • Simple, blog-aware, static sites
 description: Transform your plain text into static websites and blogs

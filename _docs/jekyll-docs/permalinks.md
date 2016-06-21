@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Permalinks
+permalink: /docs/permalinks/
 ---
 
 Jekyll supports a flexible way to build your site’s URLs. You can specify the
