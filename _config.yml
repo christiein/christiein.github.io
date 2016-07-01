@@ -12,6 +12,8 @@ help_url: https://github.com/jekyll/jekyll-help
 
 timezone: Asia/Beijing
 
+future: true
+
 collections:
   docs:
     output: true
