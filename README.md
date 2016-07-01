@@ -13,3 +13,6 @@ git中文手册v2版（2014年） https://git-scm.com/book/zh/v2
 
 http://yanjunyi.com/works/
 
+
+http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html#id1
+
